@@ -14,6 +14,8 @@ class ALCHEMY_API AMyActor : public AActor
 public:	
 	// Sets default values for this actor's properties
 	AMyActor();
+	UPROPERTY(VisibleAnywhere)
+	UStaticMeshComponent* VisualMesh;
 
 protected:
 	// Called when the game starts or when spawned

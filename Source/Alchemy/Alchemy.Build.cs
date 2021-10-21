@@ -11,7 +11,7 @@ public class Alchemy : ModuleRules
 		PublicDependencyModuleNames.AddRange(new string[] { "Core", "CoreUObject", "Engine", "InputCore" });
 
 		// VR modules
-		PrivateDependencyModuleNames.AddRange(new string[] { "HeaeMountedDisplay" });
+		PrivateDependencyModuleNames.AddRange(new string[] { "HeadMountedDisplay" });
 
 		// Uncomment if you are using Slate UI
 		// PrivateDependencyModuleNames.AddRange(new string[] { "Slate", "SlateCore" });
