@@ -4,6 +4,8 @@
 
 #include "CoreMinimal.h"
 #include "GameFramework/Actor.h"
+#include "Components/BoxComponent.h"
+#include "Components/SpotLightComponent.h"
 #include "CoinDetectingBox.generated.h"
 
 UCLASS()
@@ -18,6 +20,10 @@ public:
 	UStaticMeshComponent* VisualMesh;
 	UPROPERTY(VisibleAnyWhere)
 	int numCoins;
+	UPROPERTY(VisibleAnyWhere)
+	UBoxComponent* box;
+	UPROPERTY(VisibleAnyWhere)
+	USpotLightComponent* light;
 
 protected:
 	// Called when the game starts or when spawned
